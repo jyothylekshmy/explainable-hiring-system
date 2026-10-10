@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+streamlit
+requests
+pandas
+PyPDF2
+lightgbm
+shap
+scikit-learn
