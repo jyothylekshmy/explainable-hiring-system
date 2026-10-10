@@ -154,11 +154,11 @@ analyze_btn = st.sidebar.button("Run AI Analysis", type="primary", use_container
 # 5. MAIN DASHBOARD AREA
 # ==========================================
 if analyze_btn and job_role:
-   api_url = "https://explainable-ai-hiring-system.onrender.com/analyze_candidate"
+    api_url = "https://explainable-ai-hiring-system.onrender.com/analyze_candidate"
     
     payload = {
-        "experience_years": experience, 
-        "technical_score": tech_score, 
+        "experience_years": experience,
+        "technical_score": tech_score,
         "certifications": certs_count
     }
     
